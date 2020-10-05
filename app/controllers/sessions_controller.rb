@@ -4,7 +4,9 @@ class SessionsController < ApplicationController
   end
 
   def create
+    if !params[:name] || params[:name].empty?
 
+    end
   end
 
   def destroy
